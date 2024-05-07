@@ -34,6 +34,13 @@ The backend of the application is now running at: http://localhost:8000
 
 ### Enjoy!
 
+## Testing
+
+To run tests, navigate to the backend directory and and run: 
+```
+docker exec backend_c pytest test_main.py
+```
+
 ## Built With
 
 - [FastAPI](https://fastapi.tiangolo.com/) - Backend
